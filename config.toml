@@ -17,7 +17,6 @@ env = "production"
 title = "ExampleSite"
 description = "ExampleSite description"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Me"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
@@ -27,7 +26,6 @@ ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-ShowWordCount = true
 ShowRssButtonInSectionTermList = true
 UseHugoToc = true
 disableSpecial1stPost = false
@@ -46,14 +44,14 @@ tocopen = false
   safari_pinned_tab = "<link / abs url>"
 
   [params.label]
-  text = "Home"
+  text = "Othsueh's Blog"
   icon = "/apple-touch-icon.png"
   iconHeight = 35
 
   [params.profileMode]
   enabled = true
-  title = "Welcome to my Blog!"
-  subtitle = "I'm tired"
+  title = "Hello!🖖🏻"
+  subtitle = "I'm Othsueh, a NTNU student major in CSIE, rookie in Computer Science, But I eager to Learn."
   imageUrl = "img/author.jpg"
   imageWidth = 120
   imageHeight = 120
@@ -72,16 +70,15 @@ tocopen = false
   Content = "Welcome to my blog"
 
   [[params.socialIcons]]
-  name = "twitter"
-  url = "https://twitter.com/"
+  name = "stackoverflow"
+  url = "https://stackoverflow.com/users/18195962/othsueh"
 
   [[params.socialIcons]]
-  name = "stackoverflow"
-  url = "https://stackoverflow.com"
-
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/chun-hsueh-yu-9537761b9/"
   [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/othsueh"
 
 [params.analytics.google]
 SiteVerificationTag = "XYZabc"
@@ -97,10 +94,6 @@ SiteVerificationTag = "XYZabc"
   hiddenInList = true
   hiddenInSingle = true
 
-  [params.editPost]
-  URL = "https://github.com/<path_to_repo>/content"
-  Text = "Suggest Changes"
-  appendFilePath = true
 
   [params.fuseOpts]
   isCaseSensitive = false
@@ -115,16 +108,16 @@ SiteVerificationTag = "XYZabc"
 identifier = "categories"
 name = "Categories"
 url = "/categories/"
-weight = 20
+weight = 10
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
-weight = 30
+weight = 20
 
 [[menu.main]]
 identifier = "archives"
 name = "Archives"
 url = "/archives/"
-weight = 40
+weight = 30
