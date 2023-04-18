@@ -1,7 +1,7 @@
 baseURL = "https://othsueh.github.io/"
 title = "Othsueh's Blog"
 paginate = 5
-theme = "PaperMod"
+theme = "PaperModX"
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
@@ -58,11 +58,11 @@ tocopen = false
   imageTitle = "my image"
 
     [[params.profileMode.buttons]]
-    name = "Blog"
+    name = "貼文"
     url = "post"
 
     [[params.profileMode.buttons]]
-    name = "Categories"
+    name = "類別"
     url = "categories"
 
   [params.homeInfoParams]
@@ -103,21 +103,29 @@ SiteVerificationTag = "XYZabc"
   threshold = 0.4
   minMatchCharLength = 0
   keys = [ "title", "permalink", "summary", "content" ]
-
 [[menu.main]]
 identifier = "categories"
-name = "Categories"
+name = "類別"
 url = "/categories/"
 weight = 10
 
 [[menu.main]]
 identifier = "tags"
-name = "Tags"
+name = "標籤"
 url = "/tags/"
 weight = 20
 
 [[menu.main]]
 identifier = "archives"
-name = "Archives"
+name = "歷程"
 url = "/archives/"
 weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "搜尋"
+url = "/search/"
+weight=40 
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
