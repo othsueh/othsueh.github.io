@@ -1,4 +1,4 @@
-baseURL = "https://othsueh.notyet/"
+baseURL = "https://othsueh.github.io/"
 title = "Othsueh's Blog"
 paginate = 5
 theme = "PaperModX"
