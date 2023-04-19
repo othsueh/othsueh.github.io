@@ -37,14 +37,6 @@ showtoc = true
 tocopen = true
 PygmentsCodeFences = true
 PygmentsStyle = "vim"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
-[languages.en]
-languageName = "English"
-contentDir = "content/post"
-[languages.zh-tw]
-languageName = "zh-tw"
-contentDir = "content/貼文"
 
   [params.assets]
   favicon = "<link / abs url>"
