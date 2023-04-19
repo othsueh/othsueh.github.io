@@ -8,11 +8,15 @@ cover:
 tags: ["Markdown"]
 categories: ["Tech"]
 projects: ["Blog"]
+math: true
 ---
-# Hello_hugo!
+## Header Test
+### hello 
 
+## Quote Test
 > Build Success!
 
+## List test
 - [x] Create Header
 [x] Create Code
 [x] Create Quote Text
@@ -21,13 +25,16 @@ projects: ["Blog"]
 [ ] Create color
 <br>
 
-#000000
+`#ff0000`
+
 <br>
 
-H<sub>2</sub>O
+## Math Test
+$$P(x)_N = f(a)+f^{'}(a)(x-a)+\frac{f^{2}(a)(x-a)^2}{2!}+\cdot\cdot\cdot+\frac{f^{N}(a)(x-a)^N}{N!}$$
+
 <br>
 
-E = mc<sup>2</sup>
+## Code Test
 - inline `While(i){}`
 <br>
 ```c++
