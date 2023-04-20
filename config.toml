@@ -15,7 +15,7 @@ minifyOutput = true
 [params]
 env = "production"
 title = "ExampleSite"
-description = "ExampleSite description"
+description = "othsueh's blog, 大學生, 資工系, 程式, 讀書心得, oth"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "January 2, 2006"
