@@ -69,7 +69,13 @@
 
   {{- if not (.Param "noComments") }}
     <div class="comments-separator"></div>
-    {{- partial "comments.html" . }}
+    <script src="https://utteranc.es/client.js"
+        repo="othsueh/othsueh.github.io"
+        issue-term="pathname"
+        theme="gruvbox-dark"
+        crossorigin="anonymous"
+        async>
+</script>
   {{- end }}
 </article>
 
