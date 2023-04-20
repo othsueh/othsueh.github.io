@@ -1,28 +1,26 @@
 {{- /* You can add your own layouts/comments.html to override this file */ -}}
 
-{{- $pageCommentSystems := .Param "pageCommentSystems"}}
-{{- if not $pageCommentSystems }}
-  {{- $pageCommentSystems = site.Params.defaultCommentSystems }}
-{{- end }}
-
-{{- $page := . -}}
-{{- with site.Params.commentSystems -}}
-  {{- if $pageCommentSystems.remark42 -}}
-  {{- with .remark42 -}}
-    {{- partial "remark42.html" (dict "page" $page "ctx" .) }}
-  {{- end -}}
-  {{- end -}}
-
-  {{- if $pageCommentSystems.telegramWidget -}}
-  {{- with .telegramWidget -}}
-    {{- partial "telegram_widget.html" . }}
-  {{- end -}}
-  {{- end -}}
-
-  {{- if $pageCommentSystems.disqus -}}
-  {{- with .disqus -}}
-    {{- partial "disqus.html" (dict "page" $page "ctx" .) }}
-  {{- end -}}
-  {{- end -}}
-
-{{- end -}}
+<script>
+  (function () {
+    let theme = localStorage.getItem("pref-theme");
+    // already has prefer theme
+    if (theme) {
+      theme = theme === "dark" ? "github-dark" : "github-light";
+    }
+    // auto detected
+    else {
+      theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "github-dark"
+        : "github-light";
+    }
+    const comment = document.createElement("script");
+    comment.src = "https://utteranc.es/client.js";
+    comment.crossorigin = "anonymous";
+    comment.async = true;
+    comment.setAttribute("repo", "fissssssh/fissssssh.github.io");
+    comment.setAttribute("issue-term", "pathname");
+    comment.setAttribute("label", "Comment");
+    comment.setAttribute("theme", theme);
+    document.body.appendChild(comment);
+  })();
+</script>
