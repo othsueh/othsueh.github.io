@@ -1,3 +1,18 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+{{- if (not site.Params.disableThemeToggle) }}
+<script>
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const iframe = document.querySelector(".utterances-frame");
+    const message = {
+      type: "set-theme",
+      theme:
+        localStorage.getItem("pref-theme") === "light" // if current theme is light, then set comment widget's theme to dark, otherwise light.
+          ? "github-dark"
+          : "github-light",
+    };
+    iframe?.contentWindow.postMessage(message, "https://utteranc.es");
+  });
+</script>
+{{- end }}
