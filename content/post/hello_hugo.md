@@ -7,7 +7,6 @@ cover:
     alt: "image"
 tags: ["Markdown"]
 categories: ["Tech"]
-projects: ["Blog"]
 math: true
 ---
 ## Header Test
