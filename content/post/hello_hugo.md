@@ -6,7 +6,7 @@ cover:
     image: /img/photo-1672681149507-d7bf765e9533.webp
     alt: "image"
 tags: ["Markdown"]
-categories: ["Tech"]
+categories: [""]
 description: "這是一篇測試用的文章"
 math: true
 ---
