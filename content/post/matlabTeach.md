@@ -12,5 +12,4 @@ categories: ["Programming"]
 本篇內容主要來自 MATLAB Onramp,使用 live editor, 介紹一些我在基礎語法裡發現的東西
 ## ; 的功能
 在live editor內使用 `x = 5` `x = 5;`時, 都可以明確把 5 指派給變數 x, 但是有分號不會在 live console 輸出 x, 而沒分號就會 
-
-![](img/cammar.png)
+![](/static/img/cammar.png)
