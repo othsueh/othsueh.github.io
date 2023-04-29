@@ -115,3 +115,20 @@
     width: 100%;
     padding-right: 10px;
 }
+
+.list {
+    background-image: url("https://images.unsplash.com/photo-1622798023168-76a8f3b1f24e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3840&q=80") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.dark.list {
+    background-image: url("https://images.unsplash.com/photo-1533193256116-fcaf17cfb3b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+————————————————
+版权声明：本文为「Sulv's Blog」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://www.sulvblog.cn/posts/blog/hugo_background_img/
