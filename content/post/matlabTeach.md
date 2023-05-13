@@ -13,3 +13,5 @@ categories: ["Programming"]
 ## ; 的功能
 在live editor內使用 `x = 5` `x = 5;`時, 都可以明確把 5 指派給變數 x, 但是有分號不會在 live console 輸出 x, 而沒分號就會 
 ![command with ;](../image/cammar.png)
+
+![Loading](https://media3.giphy.com/media/RHEqKwRZDwFKE/giphy.gif?cid=ecf05e47t6u4v2ygayoxmlmre3nlxu141yebf052fhvd27k8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
